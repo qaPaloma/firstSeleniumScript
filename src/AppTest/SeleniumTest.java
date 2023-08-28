@@ -48,15 +48,15 @@ public class SeleniumTest {
 		WebElement addCustomerLink = driver.findElement(By.xpath("//a[text()='New Customer']"));
 		addCustomerLink.click();
 		
-		driver.findElement(By.name("name")).sendKeys("Alicia Ricker III");				
-		driver.findElement(By.xpath("//input[@value='m']")).click();		
+		driver.findElement(By.name("name")).sendKeys("Alicia Ricker IV");				
+		driver.findElement(By.xpath("//input[@value='f']")).click();		
 		driver.findElement(By.name("dob")).sendKeys("04/06/1967");
 		driver.findElement(By.name("addr")).sendKeys("9465 Nash Street");
 		driver.findElement(By.name("city")).sendKeys("Chicago");
 		driver.findElement(By.name("state")).sendKeys("IL");
-		driver.findElement(By.name("pinno")).sendKeys("790450");
-		driver.findElement(By.name("telephoneno")).sendKeys("3121858199");
-		driver.findElement(By.name("emailid")).sendKeys("Ali@teleworm.us");
+		driver.findElement(By.name("pinno")).sendKeys("790490");
+		driver.findElement(By.name("telephoneno")).sendKeys("3121828199");
+		driver.findElement(By.name("emailid")).sendKeys("Aliii@teleworm.us");
 		driver.findElement(By.name("password")).sendKeys("qua5eiMooh");
 		driver.findElement(By.name("sub")).click();
 		
